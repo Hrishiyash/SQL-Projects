@@ -27,6 +27,7 @@ The projects demonstrate practical applications of SQL for:
 # 📂 Projects Included
 
 # 1️⃣ Online Bookstore SQL Project
+[Online BookStore Analysis.sql](https://github.com/Hrishiyash/SQL-Projects/blob/main/Online%20BookStore%20Analysis.sql)
 
 ## 📚 Project Description
 
@@ -105,6 +106,8 @@ Stores order transaction records:
 ---
 
 # 2️⃣ Hospital Data Analysis SQL Project
+
+[Hospital Data Analysis.sql](https://github.com/Hrishiyash/SQL-Projects/blob/main/Hospital%20Data%20Analysis.sql)
 
 ## 🏥 Project Description
 
