@@ -1,10 +1,17 @@
-# 📚 Online Bookstore SQL Project
+# 📊 SQL Data Analysis Projects Portfolio
 
-## 📌 Project Overview
+## 📌 Overview
 
-This project is based on an **Online Bookstore Management System** built using **PostgreSQL**. The project focuses on database creation, data import, querying, and business analysis using SQL. It demonstrates how relational databases can be used to manage bookstore operations including books, customers, and orders.
+This repository contains two SQL-based data analysis projects developed using **PostgreSQL**. These projects focus on solving real-world business and healthcare analytical problems through structured querying, database management, and reporting techniques.
 
-The project includes beginner to advanced SQL queries for extracting meaningful business insights from structured data.
+The projects demonstrate practical applications of SQL for:
+
+* Data analysis
+* Business intelligence
+* Reporting
+* Data aggregation
+* Trend identification
+* Operational insights
 
 ---
 
@@ -17,15 +24,21 @@ The project includes beginner to advanced SQL queries for extracting meaningful 
 
 ---
 
-# 📂 Database Structure
+# 📂 Projects Included
 
-The project contains three main tables:
+# 1️⃣ Online Bookstore SQL Project
 
-## 1️⃣ Books Table
+## 📚 Project Description
 
-Stores information related to books available in the bookstore.
+This project simulates an online bookstore database system used to manage books, customers, and orders. It focuses on sales analysis, inventory tracking, customer behavior analysis, and revenue generation insights.
 
-### Columns:
+---
+
+## 📌 Database Structure
+
+### Books Table
+
+Stores book-related information:
 
 * Book_ID
 * Title
@@ -35,13 +48,9 @@ Stores information related to books available in the bookstore.
 * Price
 * Stock
 
----
+### Customers Table
 
-## 2️⃣ Customers Table
-
-Stores customer-related details.
-
-### Columns:
+Stores customer details:
 
 * Customer_ID
 * Name
@@ -50,13 +59,9 @@ Stores customer-related details.
 * City
 * Country
 
----
+### Orders Table
 
-## 3️⃣ Orders Table
-
-Stores order transaction details.
-
-### Columns:
+Stores order transaction records:
 
 * Order_ID
 * Customer_ID
@@ -67,107 +72,127 @@ Stores order transaction details.
 
 ---
 
-# 🔑 Key Concepts Used
+## 📊 Analysis Performed
 
-## ✅ Database Operations
-
-* CREATE DATABASE
-* CREATE TABLE
-* DROP TABLE
-* PRIMARY KEY
-* FOREIGN KEY
-
-## ✅ Data Import
-
-* COPY command
-* CSV file integration
-
-## ✅ SQL Querying
-
-* SELECT statements
-* WHERE conditions
-* ORDER BY
-* GROUP BY
-* HAVING
-* DISTINCT
-* LIMIT
-
-## ✅ Aggregate Functions
-
-* SUM()
-* AVG()
-* COUNT()
-* COALESCE()
-
-## ✅ Joins
-
-* INNER JOIN
-* LEFT JOIN
-
-## ✅ Business Analysis Queries
-
-* Revenue analysis
-* Customer purchase analysis
-* Inventory tracking
-* Genre-wise sales analysis
+* Genre-wise book sales analysis
+* Revenue calculation
+* Customer purchase behavior analysis
+* Most frequently ordered books
+* Inventory and stock tracking
 * Author performance analysis
-* Stock management
+* High-spending customer identification
 
 ---
 
-# 📊 Business Questions Solved
+## 🔑 SQL Concepts Used
 
-## Beginner-Level Analysis
+* SELECT statements
+* WHERE conditions
+* GROUP BY
+* ORDER BY
+* HAVING
+* DISTINCT
+* LIMIT
+* INNER JOIN
+* LEFT JOIN
+* Aggregate Functions:
 
-* Retrieve fiction books
-* Find books published after 1950
-* List customers from Canada
-* Identify orders placed in November 2023
-* Find the most expensive book
-* Calculate total revenue
-* Find books with lowest stock
+  * SUM()
+  * AVG()
+  * COUNT()
+  * COALESCE()
 
-## Advanced-Level Analysis
+---
 
-* Total books sold by genre
-* Average price analysis
-* Customers with multiple orders
-* Most frequently ordered books
-* Top expensive fantasy books
-* Author-wise sales analysis
-* High spending customer analysis
-* Remaining stock calculation after sales
+# 2️⃣ Hospital Data Analysis SQL Project
+
+## 🏥 Project Description
+
+This project focuses on healthcare and hospital operational analysis using SQL. It analyzes patient records, hospital expenses, department performance, and treatment durations to generate meaningful healthcare insights.
+
+---
+
+## 📌 Database Structure
+
+### Hospital Table
+
+Stores hospital operational data:
+
+* Name
+* Location
+* Department
+* Doctors_Count
+* Patients_Count
+* Admission_Date
+* Discharge_Date
+* Medical_Expenses
+
+---
+
+## 📊 Analysis Performed
+
+* Total patient analysis
+* Doctor availability analysis
+* Department-wise patient distribution
+* Hospital expense tracking
+* Longest patient stay analysis
+* Monthly medical expense reporting
+* City-wise patient treatment analysis
+* Department performance evaluation
+
+---
+
+## 🔑 SQL Concepts Used
+
+* SELECT statements
+* GROUP BY
+* ORDER BY
+* DISTINCT
+* LIMIT
+* Aggregate Functions:
+
+  * SUM()
+  * AVG()
+  * ROUND()
+  * NULLIF()
+* Date Functions:
+
+  * EXTRACT()
+  * TO_CHAR()
+  * Date subtraction
 
 ---
 
 # 📈 Key Insights Generated
 
+## 📚 Online Bookstore Project
+
 * Identified top-selling genres and authors
-* Analyzed customer purchasing behavior
-* Tracked inventory and remaining stock
-* Evaluated high-value customers
-* Generated revenue-based business insights
+* Analyzed customer purchasing patterns
+* Evaluated total revenue generation
+* Monitored stock availability and remaining inventory
+
+## 🏥 Hospital Data Analysis Project
+
+* Evaluated healthcare operational efficiency
+* Identified departments with highest patient load
+* Tracked medical expense trends
+* Measured average patient stay duration
+* Compared treatment distribution across cities
 
 ---
 
 # 🎯 Learning Outcomes
 
-Through this project, I gained hands-on experience in:
+Through these projects, I gained hands-on experience in:
 
 * Relational database design
 * Writing optimized SQL queries
-* Performing business data analysis
-* Working with real-world structured datasets
-* Using joins and aggregate functions for analytical reporting
-
----
-
-# 🚀 Future Improvements
-
-* Build Power BI dashboard using this database
-* Add stored procedures and triggers
-* Implement indexing for query optimization
-* Integrate Python for advanced analytics
+* Data aggregation and reporting
+* Business and healthcare data analysis
+* Working with real-world datasets
+* Using joins, aggregate functions, and date functions
+* Generating actionable insights from structured data
 
 ---
 
